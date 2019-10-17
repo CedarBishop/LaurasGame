@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5921248312096822319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5921248312096822317}
+  - component: {fileID: 5921248312096822316}
+  - component: {fileID: 1863588238}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5921248312096822317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5921248312096822319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.218096, y: 2.552106, z: -1.3020833}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5921248312096822316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5921248312096822319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b697b89a98786cb49b5f2828ef00506e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameIsOver: 0
+  checkpointSystems:
+  - bdayLetter: 0
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 1
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 2
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 3
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 4
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 5
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 6
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 7
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 8
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 9
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 10
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 11
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 12
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 13
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 14
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 15
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 16
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+  - bdayLetter: 17
+    reciever: {fileID: 0}
+    spawnpoint: {fileID: 0}
+    timeToCompleteLetter: 10
+--- !u!114 &1863588238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5921248312096822319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1fd7e3a22bbf74ba565267ba390bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 0}

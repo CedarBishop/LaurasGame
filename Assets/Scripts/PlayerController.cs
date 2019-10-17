@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     CircleCollider2D circleCollider;
     Vector2 direction;
     public float speed;
+    public FixedJoystick joystick;
 
     void Start()
     {
@@ -21,7 +22,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+#if UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE
+        direction = new Vector2(joystick.Horizontal, joystick.Vertical);
+#elif UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+#endif
         direction = direction.normalized;
     }
 
@@ -29,6 +34,4 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody.velocity = direction * speed * Time.fixedDeltaTime;
     }
-
-
 }

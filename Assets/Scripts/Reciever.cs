@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CircleCollider2D))]
-public class Teleporter : MonoBehaviour
+public class Reciever : MonoBehaviour
 {
-    public Transform teleportLocation;
-    private CircleCollider2D circleCollider;
-
-    private void Start()
+    CircleCollider2D circleCollider;
+    void Start()
     {
         circleCollider = GetComponent<CircleCollider2D>();
         circleCollider.isTrigger = true;
@@ -19,7 +17,6 @@ public class Teleporter : MonoBehaviour
     {
         if (collision.GetComponent<PlayerController>())
         {
-            collision.GetComponent<PlayerController>().transform.position = teleportLocation.position;
             gameObject.SetActive(false);
         }
     }
