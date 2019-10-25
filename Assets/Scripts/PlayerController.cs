@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rigidbody;
     CircleCollider2D circleCollider;
-    Vector2 direction;
+    public Vector2 direction;
     public float speed;
     public FixedJoystick joystick;
 

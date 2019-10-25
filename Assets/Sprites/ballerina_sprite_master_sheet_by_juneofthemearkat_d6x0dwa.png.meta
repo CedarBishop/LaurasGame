@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 7f6dec1e0c100bb48bc1374c4e09de4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6011855278288803529
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_0
+  - first:
+      213: -5751411360718773726
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_1
+  - first:
+      213: 8613944047540721714
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_2
+  - first:
+      213: 3695302244709935746
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_3
+  - first:
+      213: -8346589264878782508
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_4
+  - first:
+      213: -1987630692202680098
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_5
+  - first:
+      213: -8659673826701802876
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_6
+  - first:
+      213: 2151952998670773580
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_7
+  - first:
+      213: 4140823224338682019
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_8
+  - first:
+      213: 2619936510207804926
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_9
+  - first:
+      213: -4360638770241306540
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_10
+  - first:
+      213: 5347820246311329027
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_11
+  - first:
+      213: 7930481991377705020
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_12
+  - first:
+      213: -2665500734478277468
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_13
+  - first:
+      213: -2373957739325017433
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_14
+  - first:
+      213: 2559478948762175436
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_15
+  - first:
+      213: -7507750425411728135
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_16
+  - first:
+      213: -117487723035988620
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_17
+  - first:
+      213: 4060134126549664100
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_18
+  - first:
+      213: -641633768452009025
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_19
+  - first:
+      213: 5110944756522586415
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_20
+  - first:
+      213: 9033139026091004239
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_21
+  - first:
+      213: 2932121077190941222
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_22
+  - first:
+      213: 2542058309774993549
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_23
+  - first:
+      213: 1062469522349882127
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_24
+  - first:
+      213: -4228391212051443939
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_25
+  - first:
+      213: -7370099183154235691
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_26
+  - first:
+      213: -1337502312352032074
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_27
+  - first:
+      213: -4619890987329215567
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_28
+  - first:
+      213: 3779526379759987744
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_29
+  - first:
+      213: 415432669717802533
+    second: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d0d4744c609414c85442677c79bf12
+      internalID: -6011855278288803529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65021d867358932498ebeee1b3ff0d2d
+      internalID: -5751411360718773726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7421e58eb422b84aae0282ec5ba7161
+      internalID: 8613944047540721714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79529c6a5ea7a347b62444c0b52debc
+      internalID: 3695302244709935746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf486e71da2b94449d48ef597235769
+      internalID: -8346589264878782508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773ac3de94415e84b8cbd11954efc467
+      internalID: -1987630692202680098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90763ea221b42564fb6db411dec72d9d
+      internalID: -8659673826701802876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 180
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f944b195978d9f248ba204ddc021e288
+      internalID: 2151952998670773580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b93c9eb3c171e459e56050c5bbd12f
+      internalID: 4140823224338682019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd9a12e8a00f9448b4bcda3201cadb4
+      internalID: 2619936510207804926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d832210510f2bc46934cd93dc9ad9c7
+      internalID: -4360638770241306540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e846cc22f090c42a3856b58d0dde06
+      internalID: 5347820246311329027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742a058edd1358e4cabf88a67df038fa
+      internalID: 7930481991377705020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7c352d241357440ab2329fc7887e6a
+      internalID: -2665500734478277468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39541c6184645a14fb24590452bc564d
+      internalID: -2373957739325017433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5d7bf0e4f227343acf3d982592c3f8
+      internalID: 2559478948762175436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183660e2e91f17f469dabe5d47267727
+      internalID: -7507750425411728135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f95191b711b2b248a1c4cfe6a2e1162
+      internalID: -117487723035988620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c024816454dfa246bc7d6729a482922
+      internalID: 4060134126549664100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_19
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178685b82ba10ae4380b1f1281569124
+      internalID: -641633768452009025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336f83ad55a96244c9162bf397af497e
+      internalID: 5110944756522586415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_21
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9919246038808ce49a204e314af7281c
+      internalID: 9033139026091004239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1f6613668bef6439567889fa6be4f8
+      internalID: 2932121077190941222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28412a9f1d7694987461869cfa8862
+      internalID: 2542058309774993549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad6abec1c19d048a7c36189862fad1
+      internalID: 1062469522349882127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 90
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cff35feab25b4d478b541bd0ce1f480
+      internalID: -4228391212051443939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889a3fe8f1a53bd4e877c211396e5528
+      internalID: -7370099183154235691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93885e37798f97e42b43e42e0ce3304a
+      internalID: -1337502312352032074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9afa65afcd21b44fa7d4a7feb3c8f80
+      internalID: -4619890987329215567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7550f635c58fc4e9992789b5e6dac0
+      internalID: 3779526379759987744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballerina_sprite_master_sheet_by_juneofthemearkat_d6x0dwa_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963178eff58689e4eb724233e59f41ad
+      internalID: 415432669717802533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
