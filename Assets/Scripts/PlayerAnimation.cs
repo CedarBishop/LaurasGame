@@ -18,7 +18,15 @@ public class PlayerAnimation : MonoBehaviour
 
     void Update()
     {
-        spriteRenderer.flipX = (playerController.direction.x > 0) ? false : true;
+        if (playerController.direction.x > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (playerController.direction.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+       // spriteRenderer.flipX = (playerController.direction.x > 0) ? false : true;
         animator.SetFloat("speed", playerController.direction.magnitude);
     }
 }
