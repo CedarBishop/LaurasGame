@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CircleCollider2D))]
 public class Teleporter : MonoBehaviour
 {
+    public AudioClip winSound;
     public int index;
     CheckpointSystem checkpoint;
     CheckpointSystem nextCheckPoint;
@@ -34,6 +35,7 @@ public class Teleporter : MonoBehaviour
                     collision.GetComponent<PlayerController>().transform.position = nextCheckPoint.spawnpoint.transform.position;
                     
                 }
+                AudioManager.instance.PlaySFX(winSound);
                 gameObject.SetActive(false);
 
             }          

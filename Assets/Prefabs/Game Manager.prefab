@@ -118,6 +118,7 @@ MonoBehaviour:
     reciever: {fileID: 0}
     spawnpoint: {fileID: 0}
     timeToCompleteLetter: 10
+  loseSound: {fileID: 8300000, guid: fe174e3bfa6695041bd453b6b604f9b4, type: 3}
 --- !u!114 &1863588238
 MonoBehaviour:
   m_ObjectHideFlags: 0

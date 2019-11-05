@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: 716bf37bd80441c42bab7fc710c20452
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 128bf179a5c64ff45abe227e4eb212aa
+    path: Assets/Scenes/HardMode.unity
+    guid: 56e29f683e3fcb64686fdf62c03e9c5f
+  - enabled: 1
+    path: Assets/Scenes/EasyMode.unity
+    guid: 488e4b552aa0cd74296297acdae17b1b
+  - enabled: 1
+    path: Assets/Scenes/MediumMode.unity
+    guid: 37d0e28a091280240b5312775f0efdf3
   m_configObjects: {}

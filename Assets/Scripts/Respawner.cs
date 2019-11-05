@@ -12,6 +12,7 @@ public class Respawner : MonoBehaviour
     static BdayLetters currentLetter;
     public bool gameIsOver;
     public CheckpointSystem[] checkpointSystems;
+    public AudioClip loseSound;
 
     private PlayerController player;
 
@@ -31,7 +32,7 @@ public class Respawner : MonoBehaviour
     private void Start()
     {
         Timer.FailedLetter += RestartLetter;
-
+        AudioManager.instance.PlaySFX(loseSound);
 
         player = FindObjectOfType<PlayerController>();
         if (InitialisedLetterTimer != null)
