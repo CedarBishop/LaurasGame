@@ -15,6 +15,9 @@ public class Respawner : MonoBehaviour
     public AudioClip loseSound;
 
     private PlayerController player;
+    public GameObject FireworksPrefab;
+    public Vector3[] FireworksPositions;
+    public AudioClip fireworkLaunchSFX;
 
     private void Awake()
     {
@@ -33,7 +36,7 @@ public class Respawner : MonoBehaviour
     {
         Timer.FailedLetter += RestartLetter;
         AudioManager.instance.PlaySFX(loseSound);
-
+        currentLetter = BdayLetters.H;
         player = FindObjectOfType<PlayerController>();
         if (InitialisedLetterTimer != null)
         {
@@ -62,6 +65,7 @@ public class Respawner : MonoBehaviour
         {
             if (CompleteGame != null)
             {
+                StartCoroutine("SpawnFireworks");
                 CompleteGame();
                 gameIsOver = true;
                 return false;
@@ -78,6 +82,22 @@ public class Respawner : MonoBehaviour
     public CheckpointSystem GetCheckpointSystem(int index)
     {
         return checkpointSystems[index];
+    }
+
+
+    IEnumerator SpawnFireworks()
+    {
+        while (true)
+        {
+            AudioManager.instance.PlaySFX(fireworkLaunchSFX);
+            yield return new WaitForSeconds(2.0f);
+            GameObject[] go = new GameObject[FireworksPositions.Length];
+            for (int i = 0; i < FireworksPositions.Length; i++)
+            {
+                go[i] = Instantiate(FireworksPrefab,FireworksPositions[i],Quaternion.identity);
+                Destroy(go[i],5);
+            }
+        }
     }
 }
 

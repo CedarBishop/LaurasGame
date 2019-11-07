@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject resetPauseMenuParent;
 
     public string mainMenuName = "TitleScreen";
+
+    public AudioClip buttonSFX;
     void Start()
     {
         StartResetPause();
@@ -23,6 +25,8 @@ public class PauseMenu : MonoBehaviour
 
     public void StartResetPause ()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         Time.timeScale = 0;
         gameMenuParent.gameObject.SetActive(false);
         onPurposePauseMenuParent.gameObject.SetActive(false);
@@ -31,6 +35,8 @@ public class PauseMenu : MonoBehaviour
 
     public void OnPurposePause ()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         Time.timeScale = 0;
         gameMenuParent.gameObject.SetActive(false);
         onPurposePauseMenuParent.gameObject.SetActive(true);
@@ -39,6 +45,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Play()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         Time.timeScale = 1;
         gameMenuParent.gameObject.SetActive(true);
         onPurposePauseMenuParent.gameObject.SetActive(false);
@@ -47,6 +55,8 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu ()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         SceneManager.LoadScene(mainMenuName);
     }
 }

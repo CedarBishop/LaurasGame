@@ -10,9 +10,13 @@ public class Teleporter : MonoBehaviour
     CheckpointSystem checkpoint;
     CheckpointSystem nextCheckPoint;
     private CircleCollider2D circleCollider;
+    private SpriteRenderer spriteRenderer;
+    public Sprite onSprite;
+    public Sprite offSprite;
 
     private void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         circleCollider = GetComponent<CircleCollider2D>();
         circleCollider.isTrigger = true;
         checkpoint = Respawner.instance.GetCheckpointSystem(index);
@@ -20,7 +24,12 @@ public class Teleporter : MonoBehaviour
         {
             nextCheckPoint = Respawner.instance.GetCheckpointSystem(index + 1);
         }
-        
+
+    }
+
+    private void FixedUpdate()
+    {
+        spriteRenderer.sprite = (checkpoint.reciever.gameObject.activeSelf) ? offSprite : onSprite;
     }
 
 

@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenuParent;
     public GameObject settingsMenuParent;
     public GameObject difficultySelectParent;
+    public AudioClip buttonSFX;
 
 
     Color currentColor = Color.magenta;
@@ -23,6 +24,7 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1;
         mainMenuParent.gameObject.SetActive(true);
         settingsMenuParent.gameObject.SetActive(false);
         difficultySelectParent.gameObject.SetActive(false);
@@ -43,6 +45,7 @@ public class MainMenu : MonoBehaviour
         mainMenuParent.gameObject.SetActive(false);
         settingsMenuParent.gameObject.SetActive(false);
         difficultySelectParent.gameObject.SetActive(true);
+        AudioManager.instance.PlaySFX(buttonSFX);
     }
 
     public void TransistionToSettings ()
@@ -50,6 +53,8 @@ public class MainMenu : MonoBehaviour
         mainMenuParent.gameObject.SetActive(false);
         settingsMenuParent.gameObject.SetActive(true);
         difficultySelectParent.gameObject.SetActive(false);
+        AudioManager.instance.PlaySFX(buttonSFX);
+
     }
 
     public void TransistionToMainMenu ()
@@ -57,25 +62,35 @@ public class MainMenu : MonoBehaviour
         mainMenuParent.gameObject.SetActive(true);
         settingsMenuParent.gameObject.SetActive(false);
         difficultySelectParent.gameObject.SetActive(false);
+        AudioManager.instance.PlaySFX(buttonSFX);
+
     }
 
     public void QuitGame ()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         Application.Quit();
     }
 
     public void PlayEasyMode()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         SceneManager.LoadScene(easyMode);
     }
 
     public void PlayMediumMode()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         SceneManager.LoadScene(mediumMode);
     }
 
     public void PlayHardMode ()
     {
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         SceneManager.LoadScene(hardMode);
     }
 
@@ -86,5 +101,25 @@ public class MainMenu : MonoBehaviour
             newTargetColor = new Color(Random.Range(0, 1.0f), Random.Range(0, 1.0f), Random.Range(0, 1.0f), 1);
             yield return new WaitForSeconds(1);
         }
+    }
+
+    public void RaiseSFXVolume()
+    {
+        AudioManager.instance.RaiseSFXVolume();
+    }
+
+    public void RaiseBGMVolume()
+    {
+        AudioManager.instance.RaiseBGMVolume();
+    }
+
+    public void LowerSFXVolume()
+    {
+        AudioManager.instance.LowerSFXVolume();
+    }
+
+    public void LowerBGMVolume()
+    {
+        AudioManager.instance.LowerBGMVolume();
     }
 }

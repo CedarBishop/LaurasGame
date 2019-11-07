@@ -119,6 +119,18 @@ MonoBehaviour:
     spawnpoint: {fileID: 0}
     timeToCompleteLetter: 10
   loseSound: {fileID: 8300000, guid: fe174e3bfa6695041bd453b6b604f9b4, type: 3}
+  FireworksPrefab: {fileID: 4961080272794973771, guid: a1319bc3c9efcd54299d15b32af21db6,
+    type: 3}
+  FireworksPositions:
+  - {x: -35, y: 20, z: -1}
+  - {x: -35, y: -50, z: -1}
+  - {x: 105, y: 20, z: -1}
+  - {x: 105, y: -50, z: -1}
+  - {x: 35, y: 20, z: -1}
+  - {x: 35, y: -50, z: -1}
+  - {x: -35, y: -15, z: -1}
+  - {x: 105, y: -15, z: -1}
+  fireworkLaunchSFX: {fileID: 8300000, guid: 3fb15ba786cdcdf4ba0fec8c2bf4b657, type: 3}
 --- !u!114 &1863588238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,3 +144,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 0}
+  colorChangeSpeed: 1
+  allText: []

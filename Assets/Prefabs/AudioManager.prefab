@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmAudioSource: {fileID: 4213930903545271590}
   sfxAudioSource: {fileID: 4213930903545271589}
+  buttonSFX: {fileID: 8300000, guid: 2f71fa0908e97da4c8e9662b3270211e, type: 3}
 --- !u!82 &4213930903545271590
 AudioSource:
   m_ObjectHideFlags: 0

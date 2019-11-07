@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxAudioSource;
 
     public static event System.Action OnVolumeChange;
+    public AudioClip buttonSFX;
 
     private void Awake()
     {
@@ -32,6 +33,8 @@ public class AudioManager : MonoBehaviour
     public void RaiseSFXVolume ()
     {
         sfxAudioSource.volume += 0.1f;
+        AudioManager.instance.PlaySFX(buttonSFX);
+
 
         if (sfxAudioSource.volume > 1)
         {
@@ -46,6 +49,8 @@ public class AudioManager : MonoBehaviour
     public void RaiseBGMVolume ()
     {
         bgmAudioSource.volume += 0.1f;
+        AudioManager.instance.PlaySFX(buttonSFX);
+
 
         if (bgmAudioSource .volume > 1)
         {
@@ -60,6 +65,8 @@ public class AudioManager : MonoBehaviour
     public void LowerSFXVolume()
     {
         sfxAudioSource.volume -= 0.1f;
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         if (sfxAudioSource.volume < 0)
         {
             sfxAudioSource.volume = 0;
@@ -73,6 +80,8 @@ public class AudioManager : MonoBehaviour
     public void LowerBGMVolume()
     {
         bgmAudioSource.volume -= 0.1f;
+        AudioManager.instance.PlaySFX(buttonSFX);
+
         if (bgmAudioSource.volume < 0)
         {
             bgmAudioSource.volume = 0;

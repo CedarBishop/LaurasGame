@@ -10,7 +10,8 @@ public class PlayerController : MonoBehaviour
     CircleCollider2D circleCollider;
     public Vector2 direction;
     public float speed;
-    public FixedJoystick joystick;
+    public FloatingJoystick joystick;
+    private Teleporter[] teleporters;
 
     void Start()
     {
@@ -18,6 +19,15 @@ public class PlayerController : MonoBehaviour
         circleCollider = GetComponent<CircleCollider2D>();
 
         rigidbody.gravityScale = 0;
+        transform.position = new Vector3(-3.5f,-4.5f,0.0f);
+        if (teleporters == null)
+        {
+            teleporters = FindObjectsOfType<Teleporter>();
+        }
+        for (int i = 0; i < teleporters.Length; i++)
+        {
+            teleporters[i].gameObject.SetActive(true);
+        }
     }
 
     void Update()
