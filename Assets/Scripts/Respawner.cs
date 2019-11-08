@@ -18,6 +18,7 @@ public class Respawner : MonoBehaviour
     public GameObject FireworksPrefab;
     public Vector3[] FireworksPositions;
     public AudioClip fireworkLaunchSFX;
+    public GameObject birthdayClipPrefab;
 
     private void Awake()
     {
@@ -67,6 +68,8 @@ public class Respawner : MonoBehaviour
             {
                 StartCoroutine("SpawnFireworks");
                 CompleteGame();
+                GameObject go = Instantiate(birthdayClipPrefab);
+                Destroy(go,5);
                 gameIsOver = true;
                 return false;
             }

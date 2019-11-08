@@ -6633,7 +6633,8 @@ PrefabInstance:
         type: 3}
       propertyPath: FireworksPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4961080272794973771, guid: a1319bc3c9efcd54299d15b32af21db6,
+        type: 3}
     - target: {fileID: 1863588238, guid: 132d6e5c1a7b65b45bbef6afb23b1ec1, type: 3}
       propertyPath: allText.Array.size
       value: 2

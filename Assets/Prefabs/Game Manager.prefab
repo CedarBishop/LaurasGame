@@ -131,6 +131,8 @@ MonoBehaviour:
   - {x: -35, y: -15, z: -1}
   - {x: 105, y: -15, z: -1}
   fireworkLaunchSFX: {fileID: 8300000, guid: 3fb15ba786cdcdf4ba0fec8c2bf4b657, type: 3}
+  birthdayClipPrefab: {fileID: 6663682047251444584, guid: d74bcfa55fbcb0349a4fd4e66c54843d,
+    type: 3}
 --- !u!114 &1863588238
 MonoBehaviour:
   m_ObjectHideFlags: 0
