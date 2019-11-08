@@ -67,9 +67,9 @@ public class Respawner : MonoBehaviour
             if (CompleteGame != null)
             {
                 StartCoroutine("SpawnFireworks");
-                CompleteGame();
                 GameObject go = Instantiate(birthdayClipPrefab);
                 Destroy(go,5);
+                CompleteGame();
                 gameIsOver = true;
                 return false;
             }
@@ -93,7 +93,7 @@ public class Respawner : MonoBehaviour
         while (true)
         {
             AudioManager.instance.PlaySFX(fireworkLaunchSFX);
-            yield return new WaitForSeconds(2.0f);
+            yield return new WaitForSeconds(3.0f);
             GameObject[] go = new GameObject[FireworksPositions.Length];
             for (int i = 0; i < FireworksPositions.Length; i++)
             {

@@ -34,7 +34,7 @@ public class FollowPlayer : MonoBehaviour
         }
         else if (moveToFinishLocation)
         {
-            cameraSize = Mathf.Lerp(cameraSize,45f,0.035f);
+            cameraSize = Mathf.Lerp(cameraSize,45f,0.03f);
             mainCamera.orthographicSize = cameraSize;
             transform.position = Vector3.MoveTowards(transform.position, new Vector3(finishLocation.x,finishLocation.y, transform.position.z), 0.4f);
         }
